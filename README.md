@@ -25,3 +25,13 @@ Touch based on following topics until now :
    - RetrievalQA (Document Retrieval)
    - DocArrayInMemorySearch (In Memory Vector Store)
    - Require Embeddings and Vector Databases for Large Incoming Documents
+   - Methods for querying (in case of multiple large documents)
+        - Stuff method (Basic)
+        - Map Reduce (Passes chunks through queries to LLMs and finally uses another language model to combine the answers to get a final response)
+        - Refine (Builds upon the answer from the previous document)
+        - Map Re-rank (Assigns scores to response and then builds a final response)
+          
+5. Evaluation (Evaluation.ipynb)
+   - Evaluation of chains
+   - QAGenerationChain (Input documents and create question answer pair from it. It uses a language model to do that)
+   - QAEvalChain
