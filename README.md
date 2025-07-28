@@ -16,4 +16,12 @@ Touch based on following topics until now :
    - Multiple memories can be used in combination
    - Conversations can also be stored in SQL databases
      
-3. Chains
+3. Chains (Chains.ipynb)
+   - LLMChain             : Simple Chain Structure
+   - SequentialChain      : Combination of multiple chains where output of one chain is input to another chain
+   - RouterChain          : After reading the input, the Router Chain decides which next simple or sequential chain to route to
+  
+4. Question and Answer Format (QnA.ipynb)
+   - RetrievalQA (Document Retrieval)
+   - DocArrayInMemorySearch (In Memory Vector Store)
+   - Require Embeddings and Vector Databases for Large Incoming Documents
