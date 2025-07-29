@@ -35,3 +35,6 @@ Touch based on following topics until now :
    - Evaluation of chains
    - QAGenerationChain (Input documents and create question answer pair from it. It uses a language model to do that)
    - QAEvalChain
+
+6. Agents (Agents.ipynb)
+   - Can be integrated with built-in tools, wikipedia or python (PythonREPL) agents
